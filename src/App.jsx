@@ -56,9 +56,9 @@ function App() {
       <button class="btn" type="submit">search</button>
     </form>
     <br />
-    {/* <div class="error"></div> */}
+    <div class="error"></div>
     
-    {/* diaplay data */}
+    {/* display data */}
 
     <div>
     <div class="user-info card">
