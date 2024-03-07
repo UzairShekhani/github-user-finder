@@ -7,7 +7,6 @@ function App() {
   const [userName, setUserName] = useState("");
   const [data, setData] = useState({});
   const [show, setShow] = useState(false);
-
   const onChangeHandler = (e) => {
     const value = e.target.value;
     
