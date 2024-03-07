@@ -10,6 +10,7 @@ function App() {
 
   const onChangeHandler = (e) => {
     const value = e.target.value;
+    
     setUserName(value);
     if (!value.trim()) {
       setData({});
@@ -82,14 +83,14 @@ function App() {
                 <h3 className="amount" id="followers">{data.followers}</h3>
               </div>
               <div className="stat">
-                <h3 className="stat-title">Following</h3>
-                <h3 className="amount" id="following">{data.following}</h3>
+                 <h3 className="stat-title">Following</h3>
+                 <h3 className="amount" id="following">{data.following}</h3>
               </div>
             </div>
           </div>
          </motion.div>
       )}
-    </>
+     </>
   );
 }
 
